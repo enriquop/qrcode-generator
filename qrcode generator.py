@@ -9,7 +9,7 @@ print("2) Instagram")
 print("3) Twitter")
 Join = input('Selecciona una opcion: ')
 if Join == '1':
-    value = input("Porfavor pon el texto:\n")
+    value = input("Porfavor pon el texto o link:\n")
     img = qrcode.make(value)
     guardar = input("Guardar como:\n")
     img.save(guardar + "Texto" + ".png")
